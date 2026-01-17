@@ -1,0 +1,162 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+.app-container {
+  background: url("./assets/background.jpg") no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  color: white;
+  padding-bottom: 50px;
+}
+
+/* Navigation Bar */
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.nav-logo img {
+  width: 70px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: #4caf50;
+}
+
+/* Events Page Header */
+.section-title {
+  text-align: center;
+  font-size: 36px;
+  margin-top: 40px;
+  font-weight: bold;
+}
+
+.section-description {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 18px;
+  opacity: 0.8;
+}
+
+/* Event Cards Grid */
+.events-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  max-width: 80%;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.event-card img {
+  width: 70%;      
+  height: 80px;    
+  object-fit: cover; 
+}
+
+/* Event Card Styling */
+.event-card {
+  background: rgba(255, 255, 255, 0.062);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.event-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+.event-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.event-description {
+  font-size: 16px;
+  opacity: 0.9;
+  margin-bottom: 15px;
+}
+
+/* Register Button */
+.register-button {
+  background: linear-gradient(135deg, #2e7d32, #1b5e20);
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.register-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* No Events Message */
+.no-events {
+  text-align: center;
+  font-size: 18px;
+  opacity: 0.8;
+  margin-top: 20px;
+}
+
+/* Filters Section */
+.filters-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.filters-container select {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  cursor: pointer;
+  outline: none;
+}
+
+.filters-container select:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.filters-container select option {
+  background: black;
+  color: white;
+}
