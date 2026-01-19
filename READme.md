@@ -10,7 +10,7 @@ A full-stack MERN application designed to raise awareness for endangered species
 
 1.  **Clone the repository**
     ```bash
-    git clone [https://github.com/yourusername/planet-species.git](https://github.com/yourusername/planet-species.git)
+    git clone [https://github.com/zaiddrr/Planet-Species](https://github.com/zaiddrr/Planet-Species.git)
     ```
 
 2.  **Install Dependencies**
