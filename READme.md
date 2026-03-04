@@ -3,9 +3,6 @@
 
 
 ![Project Screenshot](frontpage.png)
-
-    # Planet Species
-
 A full-stack MERN application designed to raise awareness for endangered species. This project features real-time news aggregation, a custom events management system, and interactive educational tools.
 
 This repository contains my individual contributions to the project — the Events, Newsletter, and Contact Us features — developed independently across the full stack.
